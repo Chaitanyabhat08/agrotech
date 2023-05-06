@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style>
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: pink;
+}
+button {
+       background-color: #4CAF50;
+       width: 100%;
+        color: orange;
+        padding: 15px;
+        margin: 10px 0px;
+        border: none;
+        cursor: pointer;
+         }
+ form {
+        border: 3px solid #f1f1f1;
+    }
+ input[type=text], input[type=password] {
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 2px solid green;
+        box-sizing: border-box;
+    }
+ button:hover {
+        opacity: 0.7;
+    }
+  .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        margin: 10px 5px;
+    }
+
+
+ .container {
+        padding: 25px;
+        background-color: lightblue;
+    }
+</style>
+</head>
+<body>
+    <center> <h1> farmer registration</h1> </center>
+    <form>
+        <div class="container">
+            <label>name:</label>
+            <input type="text" placeholder="Enter name" name="username" required>
+            <label>address:</label>
+            <input type="text" placeholder="Enter address" name="password" required>
+            <label>contact no:</label>
+            <input type="number" placeholder="contact no">
+            <label>age</label>
+            <input type="date" name="age" placeholder="age">
+            <label for="cars">Choose crop 1:</label>
+<select id="cars" name="crops">
+  <option value="volvo">tomato</option>
+  <option value="saab">banana</option>
+  <option value="fiat">watermelon</option>
+  <option value="audi">guava</option>
+</select>
+                <label for="cars">Choose crop 2:</label>
+<select id="cars" name="crops">
+  <option value="volvo">tomato</option>
+  <option value="saab">banana</option>
+  <option value="fiat">watermelon</option>
+  <option value="audi">guava</option>
+</select>
+            <label> crop 1 price in $:</label>
+                <input type="number" name="price 1">
+              <label> crop 1 price in $:</label>
+                <input type="number" name="price 1">
+
+
+            <button type="submit">Register</button>
+            <input type="checkbox" checked="checked"> i agree to all terms and condition
+            <button type="button" class="cancelbtn"> Cancel</button>
+             <a href="index.html"> back to homepage</a>
+        </div>
+    </form>
+</body>
+</html>
